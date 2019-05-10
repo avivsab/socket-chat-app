@@ -1,0 +1,87 @@
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#activeUsers {
+    width: 18rem;
+    height: 100vh;
+    background-color: steelblue;
+    opacity: 0.7;
+    position: fixed;
+    top: 15vh;
+    border: 1px blanchedalmond dotted;
+}
+
+
+form {
+    margin: 5rem;
+    object-position: center;
+}
+
+.card-panel {
+    padding: 0;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-radius: 15px;
+    width: 85%;
+    margin: 15px auto;
+}
+
+/* section:nth-child(odd) {
+    direction: rtl;
+}
+
+section:nth-child(even) {
+    direction: ltr;
+} */
+
+.container {
+    width: 420px;
+    border: 1px solid #ccc;
+    height: 580px;
+    overflow: auto;
+    padding: 7px;
+    margin-top: -5rem;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: -1px 0px 0px 1px beige;
+    
+}
+
+.headlineCenter {
+    line-height: 250px;
+    text-align: center;
+    position: relative;
+}
+
+.center .inside {
+    flex-grow: 0.5;
+
+}
+
+.center {
+    position: fixed;
+    top: 83%;
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.scrollToStart {
+    width: 50px;
+    height: 200px;
+    position: relative;
+    bottom: 10px;
+}
+
+#activeUsers  div{
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    color: ghostwhite;
+}
